@@ -1,0 +1,26 @@
+<section>
+    <aside class="filters">
+
+    </aside>
+    <div class="products">
+        <ul>
+            {{#results}}
+            <li class="product" data-id="{{{objectId}}}">
+                <div class="product-info">
+                    <p class="item-name" data-name="{{{name}}}">{{{name}}}</p>
+                    <p class="category" data-category="{{{category}}}"><span class="pre">Category:</span>{{{category}}}</p>
+                    <p class="price" data-price="{{{price}}}"><span class="pre">Price:</span> ${{{price}}}</p>
+                </div>
+                <footer class="product-footer">
+                    <a href="#">
+                        <button class="edit-button">Edit</button>
+                    </a>
+                    <a href="#">
+                        <button class="delete-button">Delete</button>
+                    </a>
+                </footer>
+            </li>
+            {{/results}}
+        </ul>
+    </div>
+</section>
