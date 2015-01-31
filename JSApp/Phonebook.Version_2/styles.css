@@ -1,7 +1,8 @@
 body {
     font-family: Arial, serif;
+    width: 50%;
+    margin: 1% 0% 0% 25%;
 }
-
 #header {
     display: block;
     padding: 5px;
@@ -10,7 +11,6 @@ body {
     font-weight: bold;
     text-align: center;
 }
-
 #menu {
     float: left;
     list-style-type: none;
@@ -18,16 +18,14 @@ body {
     padding: 5px 10px;
     margin: 10px;
 }
-
 #menu li {
     margin: 8px 0;
 }
-
 #wrapper {
-    margin-left: 111px;
-    /*text-align: center;*/
+    /*margin-left: 111px;*/
+    
+    text-align: center;
 }
-
 .button {
     background: #70AD47;
     border: 2px solid #507E32;
@@ -38,14 +36,12 @@ body {
     display: inline-block;
     margin: 0 10px;
 }
-
 .link {
     color: #2E75B6;
     text-decoration: none;
     padding: 2px 0;
     border-bottom: 1px dotted #2E75B6;
 }
-
 .dialog-box {
     display: inline-block;
     margin: 10px 0;
@@ -55,36 +51,29 @@ body {
     border: 1px solid #507E32;
     box-shadow: 1px 1px 3px #507E32;
 }
-
 .dialog-box h1 {
     margin: 0 0 10px 0;
     text-align: center;
     font-size: 18pt;
 }
-
-.dialog-box h1:after
-{
+.dialog-box h1:after {
     content: ' ';
     display: block;
     border: 1px solid #507E32;
     margin: 10px 0 20px 0;
     box-shadow: 1px 1px 3px #507E32;
 }
-
 .dialog-box p {
     margin: 5px 0;
 }
-
 .dialog-box p.buttons {
     margin: 20px 0 0 0;
     text-align: center;
 }
-
 .dialog-box label {
     display: inline-block;
     min-width: 90px;
 }
-
 .dialog-box input {
     font-size: 12pt;
     font-weight: bold;
@@ -92,20 +81,20 @@ body {
     border: 1px solid #70AD47;
     border-radius: 2px;
 }
-
 .dialog-box input:focus {
     outline: 0;
     border: 1px solid #3a6c35;
 }
-
-#phones {
-    margin: 10px;
+.center-content {
+    margin-left: auto;
+    margin-right: auto;
 }
-
+#phones {
+    margin-top: 10px;
+}
 table tr {
     background: #A9D18E;
 }
-
 table th, table td {
     border: 1px solid #507E32;
     padding: 5px;
@@ -114,7 +103,6 @@ table th, table td {
     word-break: break-all;
     max-width: 300px;
 }
-
 #footer {
     display: block;
     padding: 5px;
@@ -123,4 +111,3 @@ table th, table td {
     text-align: center;
     clear: both;
 }
-
